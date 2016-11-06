@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gozero.com.movied3.See_Review_Activity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/title_text_view_Review"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="#009688"
+        android:gravity="center|left"
+        android:paddingLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list_view_reviews"
+        ></ListView>
+
+
+
+</LinearLayout>

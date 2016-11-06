@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="gozero.com.movied3.MovieActivity">
+
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:columnWidth="120dp"
+        android:focusable="true"
+        android:clickable="true"
+
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="2"
+
+
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:background="#000"
+        android:cacheColorHint="#000"
+        android:descendantFocusability="afterDescendants"
+        >
+
+
+    </GridView>
+
+    <ProgressBar
+        android:id="@+id/progressBar_Movie"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="98dp" />
+
+
+</LinearLayout>
